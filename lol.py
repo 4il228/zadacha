@@ -15,3 +15,8 @@ for i in range(len(numbers_split)):
 Список сортируется по алфавиту.
 Список печатается на экран.
 """
+spisok = []
+for number in numbers:
+    if number >= 20:
+        spisok.append(number)
+    
