@@ -15,8 +15,16 @@ for i in range(len(numbers_split)):
 Список сортируется по алфавиту.
 Список печатается на экран.
 """
-spisok = []
-for number in numbers:
-    if number >= 20:
-        spisok.append(number)
-    
+# spisok = []
+# for number in numbers:
+#     if number >= 20:
+#         spisok.append(number)
+# 
+# Неплохо, но можно было использовать функцию фильтр
+# Помимо этого, ты перебираешь не список в 19 строчке, а строку с инпутом
+numbers_split = list(filter(lambda x: x >= 20, numbers_split)) #функция filter может решить задачу в одну строчку, прочитай про нее подробнее
+#реши ниже оставшуюся часть задачи
+"""
+Список сортируется по алфавиту.
+Список печатается на экран.
+"""
