@@ -28,3 +28,6 @@ numbers_split = list(filter(lambda x: x >= 20, numbers_split)) #функция f
 Список сортируется по алфавиту.
 Список печатается на экран.
 """
+
+numbers_split.sort()
+print(numbers_split)
